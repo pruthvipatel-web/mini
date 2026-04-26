@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;   /* prevents stretching */
+    border: 3px solid #333;
+    padding: 5px;
+    background-color: white;
+}
+
+.profile-box {
+    text-align: center;
+    margin: 10px;
+}
